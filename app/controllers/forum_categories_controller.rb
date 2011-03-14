@@ -7,7 +7,7 @@ class ForumCategoriesController < ApplicationController
     
   end
   def show
-    @forums = Freshdesk.get_forums(request.request_uri)
+    @forums = Freshdesk.get_forums("/categories/11")
     @title = "Forums"
   end
 end
