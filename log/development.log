@@ -4016,3 +4016,27 @@ ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.c
   -e:2
 
 Rendering rescues/layout (not_found)
+
+
+Processing ForumCategoriesController#show (for 127.0.0.1 at 2011-03-14 20:32:08) [GET]
+Rendering template within layouts/application
+Rendering forum_categories/show
+Completed in 1013ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 20:32:09) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 20:32:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
