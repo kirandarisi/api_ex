@@ -1,0 +1,7 @@
+<h4 style="color: #333333;">Topics </h4>
+<%@topics['topics'].each do |k|%>
+	<span style="font-size: 10pt; color: #333333;"><%= k['title'] %> </span>
+	<br>
+<%end%>
+
+

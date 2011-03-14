@@ -1,0 +1,8 @@
+<h4 style="color: #333333;">Forum Categories </h4>
+<%@forum_categories['forum_categories'].each do |k|%>
+	<%= link_to h(k['name']), category_path(k['id']) %> 
+	<br>
+	<span style="font-size: 10pt; color: #333333;"><%= k['description']%></span>
+	<br>
+<%end%>
+	

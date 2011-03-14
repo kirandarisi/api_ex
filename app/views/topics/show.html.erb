@@ -1,0 +1,9 @@
+<h4 style="color: #333333;">Posts </h4>
+<%unless @posts['posts'].nil? %>
+<%@posts['posts'].each do |k|%>
+	---> <span style="font-size: 10pt; color: #333333;"><%= k['body']%></span>
+	<br>
+<%end%>
+<%else%>
+<h4 style="color: #333333;">There are no posts to display </h4>
+<%end%>

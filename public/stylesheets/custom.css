@@ -1,0 +1,66 @@
+.container {
+width: 710px;
+}
+body {
+background: #cff;
+font: 14px "comic sans ms", Geneva, Arial, Verdana, sans-serif;
+color: #333;
+  
+}
+#header {
+padding-top: 20px;
+}
+#header img {
+padding: 1em;
+background: #fff;
+}
+#content {
+margin-top: 1em;
+font-size: 120%;
+padding: 20px;
+background: #fff;
+}
+/* Links */
+a {
+color: #09c;
+text-decoration: none;
+}
+a:hover {
+color: #069;
+text-decoration: underline;
+}
+a:visited {
+color: #069;
+}
+.brand {
+  position: absolute;
+  left: 0px;
+  margin-left: 8px;
+  text-decoration: none;
+}
+/* line 189, ../src/application.scss */
+.brand a {
+  text-decoration: none;
+}
+/* line 192, ../src/application.scss */
+.brand .logo {
+  overflow: hidden;
+  *zoom: 1;
+  float: left;
+  margin: 0px 0px 0px 0px;
+}
+/* line 197, ../src/application.scss */
+.brand img, .brand h3 {
+  float: left;
+}
+/* line 200, ../src/application.scss */
+.brand h3 {
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: normal;
+  margin: 0px;
+  padding: 13px 0px 0px 2px;
+  position: relative;
+  color: #ffffff;
+  text-transform: capitalize;
+}

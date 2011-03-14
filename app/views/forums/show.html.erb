@@ -1,0 +1,11 @@
+<h4 style="color: #333333;">Topics </h4>
+<%unless @topics['forum']['topics'].nil? %>
+<%@topics['forum']['topics'].each do |k|%>
+	<%= link_to h(k['title']), category_forum_topic_path(@topics['forum']['forum_category_id'],k['forum_id'],k['id']) %> 
+	<br>
+<%end%>
+<%else%>
+<h4 style="color: #333333;">There are no topics to display </h4>
+<%end%>
+
+
