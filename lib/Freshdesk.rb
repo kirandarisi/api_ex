@@ -1,6 +1,5 @@
 require 'httparty'
 
-
 module Freshdesk
   include HTTParty
   base_uri 'http://verticaloffice.freshdesk.com'
