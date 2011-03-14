@@ -3247,3 +3247,634 @@ ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.c
   -e:2
 
 Rendering rescues/layout (not_found)
+
+
+Processing ForumCategoriesController#index (for 127.0.0.1 at 2011-03-14 19:48:52) [GET]
+Rendering template within layouts/application
+Rendering forum_categories/index
+Completed in 1789ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:48:54) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:48:55) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ForumCategoriesController#show (for 127.0.0.1 at 2011-03-14 19:49:00) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering forum_categories/show
+Completed in 2029ms (View: 6, DB: 0) | 200 OK [http://localhost/categories/2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:49:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:49:03) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ForumsController#show (for 127.0.0.1 at 2011-03-14 19:49:07) [GET]
+  Parameters: {"id"=>"5", "category_id"=>"2"}
+Rendering template within layouts/application
+Rendering forums/show
+Completed in 1807ms (View: 5, DB: 0) | 200 OK [http://localhost/categories/2/forums/5]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:49:09) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:49:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing TopicsController#show (for 127.0.0.1 at 2011-03-14 19:49:12) [GET]
+  Parameters: {"forum_id"=>"5", "id"=>"2", "category_id"=>"2"}
+Rendering template within layouts/application
+Rendering topics/show
+Completed in 1802ms (View: 4, DB: 0) | 200 OK [http://localhost/categories/2/forums/5/topics/2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:49:14) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:49:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ForumCategoriesController#index (for 127.0.0.1 at 2011-03-14 19:49:22) [GET]
+Rendering template within layouts/application
+Rendering forum_categories/index
+Completed in 2090ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:49:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:49:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ForumCategoriesController#index (for 127.0.0.1 at 2011-03-14 19:51:11) [GET]
+Rendering template within layouts/application
+Rendering forum_categories/index
+Completed in 1010ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:51:12) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:51:13) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ForumCategoriesController#show (for 127.0.0.1 at 2011-03-14 19:51:22) [GET]
+  Parameters: {"id"=>"11"}
+Rendering template within layouts/application
+Rendering forum_categories/show
+Completed in 657ms (View: 7, DB: 0) | 200 OK [http://localhost/categories/11]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:51:23) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:51:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ForumsController#show (for 127.0.0.1 at 2011-03-14 19:51:26) [GET]
+  Parameters: {"id"=>"34", "category_id"=>"11"}
+Rendering template within layouts/application
+Rendering forums/show
+Completed in 641ms (View: 5, DB: 0) | 200 OK [http://localhost/categories/11/forums/34]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:51:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:51:27) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ForumsController#show (for 127.0.0.1 at 2011-03-14 19:51:30) [GET]
+  Parameters: {"id"=>"35", "category_id"=>"11"}
+Rendering template within layouts/application
+Rendering forums/show
+Completed in 623ms (View: 5, DB: 0) | 200 OK [http://localhost/categories/11/forums/35]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:51:31) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:51:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ForumCategoriesController#index (for 127.0.0.1 at 2011-03-14 19:53:43) [GET]
+Rendering template within layouts/application
+Rendering forum_categories/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #3 of app/views/forum_categories/index.html.erb:
+1: <h4 style="color: #333333;">Forum Categories </h4>
+2: <%unless @forum_categories.nil? %>
+3: <%@forum_categories['forum_categories'].each do |k|%>
+4: 	<%= link_to h(k['name']), category_path(k['id']) %> 
+5: 	<br>
+6: 	<span style="font-size: 10pt; color: #333333;"><%= k['description']%></span>
+
+    app/views/forum_categories/index.html.erb:3
+    F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+    F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+    F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+    F:\ruby187\bin\rdebug-ide:19:in `load'
+    F:\ruby187\bin\rdebug-ide:19
+    -e:2:in `load'
+    -e:2
+
+Rendered rescues/_trace (88.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ForumCategoriesController#index (for 127.0.0.1 at 2011-03-14 19:54:06) [GET]
+Rendering template within layouts/application
+Rendering forum_categories/index
+Completed in 575ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:54:08) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:54:08) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ForumCategoriesController#show (for 127.0.0.1 at 2011-03-14 19:54:11) [GET]
+  Parameters: {"id"=>"9"}
+Rendering template within layouts/application
+Rendering forum_categories/show
+Completed in 686ms (View: 7, DB: 0) | 200 OK [http://localhost/categories/9]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:54:13) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:54:13) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:56:14) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ForumCategoriesController#show (for 127.0.0.1 at 2011-03-14 19:58:49) [GET]
+Rendering template within layouts/application
+Rendering forum_categories/show
+Completed in 1158ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:58:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:58:51) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ForumCategoriesController#show (for 127.0.0.1 at 2011-03-14 19:59:46) [GET]
+Rendering template within layouts/application
+Rendering forum_categories/show
+Completed in 640ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:59:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:59:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ForumsController#show (for 127.0.0.1 at 2011-03-14 19:59:54) [GET]
+  Parameters: {"id"=>"34", "category_id"=>"11"}
+Rendering template within layouts/application
+Rendering forums/show
+Completed in 863ms (View: 5, DB: 0) | 200 OK [http://localhost/categories/11/forums/34]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:59:55) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 19:59:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ForumsController#show (for 127.0.0.1 at 2011-03-14 19:59:59) [GET]
+  Parameters: {"id"=>"35", "category_id"=>"11"}
+Rendering template within layouts/application
+Rendering forums/show
+Completed in 960ms (View: 5, DB: 0) | 200 OK [http://localhost/categories/11/forums/35]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 20:00:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 20:00:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ForumsController#show (for 127.0.0.1 at 2011-03-14 20:00:04) [GET]
+  Parameters: {"id"=>"37", "category_id"=>"11"}
+Rendering template within layouts/application
+Rendering forums/show
+Completed in 694ms (View: 5, DB: 0) | 200 OK [http://localhost/categories/11/forums/37]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 20:00:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 20:00:06) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ForumsController#show (for 127.0.0.1 at 2011-03-14 20:00:08) [GET]
+  Parameters: {"id"=>"36", "category_id"=>"11"}
+Rendering template within layouts/application
+Rendering forums/show
+Completed in 682ms (View: 5, DB: 0) | 200 OK [http://localhost/categories/11/forums/36]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 20:00:09) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-14 20:00:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_load'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/lib/ruby-debug.rb:101:in `debug_program'
+  F:/ruby187/lib/ruby/gems/1.8/gems/ruby-debug-ide-0.4.5/bin/rdebug-ide:82
+  F:\ruby187\bin\rdebug-ide:19:in `load'
+  F:\ruby187\bin\rdebug-ide:19
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)

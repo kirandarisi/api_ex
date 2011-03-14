@@ -3,7 +3,7 @@ require 'httparty'
 
 module Freshdesk
   include HTTParty
-  base_uri 'http://localhost:3001'
+  base_uri 'http://verticaloffice.freshdesk.com'
   #format :xml
   
   
